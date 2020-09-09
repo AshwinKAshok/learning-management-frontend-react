@@ -1,0 +1,24 @@
+.wbdv-lesson-tab {
+    padding: 0.5em;
+    margin: 0.4em;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.wbdv-lesson-form {
+    margin-left: 1em;
+ }
+
+.wbdv-module-row {
+    margin: 0.3em;
+    background: lightgrey;
+    padding: 0.5em;
+}
+
+.wbdv-moduleList-btn {
+    width: 100%;
+}
+
+.wbdv-courseEditor-close-btn {
+    margin-top: 0.8em;
+}

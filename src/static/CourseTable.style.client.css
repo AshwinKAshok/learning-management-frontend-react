@@ -1,0 +1,211 @@
+/*Custom flex-box grid system*/
+.wbdv-col-1 {
+    width: 5%;
+}
+
+.wbdv-col-3 {
+    width: 15%;
+}
+.wbdv-col-5 {
+    width:25%;
+}
+
+.wbdv-col-6 {
+    width: 30%;
+}
+
+.wbdv-col-7 {
+    width: 35%;
+}
+
+.wbdv-col-10 {
+    width: 50%;
+}
+
+/*--------------All CSS for header starts here----------*/
+
+/*Main div for the header section*/
+.wbdv-header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+/*Course manager LABEL*/
+.wbdv-course-manager-label {
+    padding-top:0.4em;
+    padding-left: 0.4em;
+    color:white;
+}
+
+.wbdv-add-course {
+    border-radius: 50%;
+    margin: 0 0.2em;
+}
+/*-----------------------CSS for first header ends here-----------------------*/
+
+/*-------------------CSS for second header (Title, owner, Modified date etc)------------*/
+.wbdv-second-header {
+    display: flex;
+    flex-direction: row;
+    background: lightgrey;
+}
+
+#wbdv-grid-view-btn {
+    background: transparent;
+}
+
+#wbdv-grid-view-btn:focus {
+    box-shadow: none;
+}
+
+.wbdv-grid-view-icon {
+    color: black;
+}
+
+#wbdv-sort-btn {
+    padding-top: 0.73em;
+    background: transparent;
+}
+
+#wbdv-sort-btn:focus {
+    box-shadow: none;
+}
+
+#wbdv-sort-icon {
+    color: black;
+}
+/*-------------------------CSS for second header ends here--------------*/
+
+
+/*---------CSS for day/date for collection of data starts here-------------------*/
+.wbdv-date-based-collection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+/*---------CSS for day/date for collection of data end here-------------------*/
+
+
+
+/*----------CSS for course row starts here----------*/
+.wbdv-course-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2em;
+}
+
+.wbdv-file-icon {
+    color: dodgerblue;
+    padding-left: 0.2em;
+}
+
+.wbdv-course-row-title {
+    color: black;
+}
+
+.wbdv-course-row-owner {
+    color: dimgrey;
+}
+
+.wbdv-course-row-modified {
+    color: dimgrey;
+}
+
+.wbdv-delete-course-btn {
+    background: transparent;
+}
+
+.wbdv-delete-course-btn:focus {
+    box-shadow: none;
+}
+
+.wbdv-delete-course-icon {
+    color: rgba(2,10,5,0.76);
+    padding-right: 0.2em;
+}
+
+.wbdv-course-row-title:hover {
+    text-decoration: none;
+}
+
+.wbdv-course-row-icon-div {
+    background: whitesmoke;
+    border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
+    border-left: 0.1em solid lightgrey;
+}
+
+.wbdv-course-row-title-div {
+    background: whitesmoke;
+    border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
+}
+
+.wbdv-course-row-owner-div {
+    background: whitesmoke;
+    border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
+}
+
+.wbdv-course-row-modified-div {
+    background: whitesmoke;
+    border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
+}
+
+.wbdv-course-row-empty-div {
+    background: whitesmoke;
+    border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
+}
+
+.wbdv-course-row-delete-course-div {
+    background: whitesmoke;
+    border-top: 0.1em solid lightgrey;
+    border-bottom: 0.1em solid lightgrey;
+    border-right: 0.1em solid lightgrey;
+}
+
+/*----------CSS for course row ends here------------*/
+
+/*---------------CSS for miscellaneous elements---------- */
+.wbdv-add-button {
+    color: white;
+}
+
+.wbdv-add-course-hovering-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.wbdv-course-card {
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .wbdv-second-header {
+        display: none;
+    }
+
+    .wbdv-course-row-delete-course-div {
+        padding-right: 2em;
+    }
+
+    .wbdv-course-row-modified-div {
+        display: none;
+    }
+
+    .wbdv-course-row-owner-div {
+        display: none;
+    }
+
+    .wbdv-course-row-title-div {
+        width: 75%;
+    }
+
+}
